@@ -1,0 +1,92 @@
+
+/* Media Querise */
+
+/* iPhone 6/7/8 mobile divices screen*/
+@media only screen and (max-width: 689px) {
+    .main-nav {
+        display: none;
+}
+.hero-area {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: -76px;
+}
+.title-left h2 {
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+}
+.live-btn {
+    padding: 10px 24px;
+    background: #E02C6D;
+    color: white;
+    transition: 2s;
+    margin-left: 20%;
+}
+.header-section {
+    height: 64vh;
+}
+.herophoto-right img {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+}
+.footer img {
+    width: 317px;
+}
+.social-link {
+    display: flex;
+    grid-column-gap: 17px;
+    margin-left: 15%;
+}
+.footers p {
+    margin-left: 14%;
+    font-size: 20px;
+}
+.live-btn {
+    margin-left: 30%;
+}
+}
+
+/* Tablet/ iPad  divices screen mode*/
+
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    .header-section {
+    height: 70vh;
+}
+.main-nav {
+    margin-top: 16px;
+    margin-left: -115px;
+}
+.main-nav {
+    margin-top: 16px;
+    margin-left: -20px;
+    width: 97%;
+}
+.title-left h2 {
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+}
+.live-btn {
+    padding: 10px 11px;
+}
+.herophoto-right {
+    margin-top: -3px;
+    width: 312.01px;
+    height: 257px;
+}
+.header-section {
+    height: 32vh;
+}
+.logo {
+    float: right;
+    color: #ffff;
+    padding: 7px 12px;
+}
+.members {
+
+    grid-template-columns: repeat(2, 1fr);
+}
+
+}
